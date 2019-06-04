@@ -13,6 +13,8 @@ class App < Sinatra::Base
 
   get '/friends' do
     @friends = params 
+    
+    erb :friends
 
   end
 end
